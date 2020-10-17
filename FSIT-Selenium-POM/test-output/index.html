@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Sample_test_Suite">
+              <span class="suite-name border-failed">Sample test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Sample_test_Suite">
+                    <span>D:\sunil\eclipse-workspace\final-framework-testng(POM)\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Sample_test_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Sample_test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Sample_test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Sample_test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Sample_test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Sample_test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">45 methods, 1 failed,   44 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Sample_test_Suite" class="hide-methods failed suite-Sample_test_Suite"> (hide)</a> <!-- hide-methods failed suite-Sample_test_Suite -->
+                      <a href="#" panel-name="suite-Sample_test_Suite" class="show-methods failed suite-Sample_test_Suite"> (show)</a> <!-- show-methods failed suite-Sample_test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Sample_test_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="selectPaymentMethod">selectPaymentMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Sample_test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Sample_test_Suite" class="hide-methods passed suite-Sample_test_Suite"> (hide)</a> <!-- hide-methods passed suite-Sample_test_Suite -->
+                      <a href="#" panel-name="suite-Sample_test_Suite" class="show-methods passed suite-Sample_test_Suite"> (show)</a> <!-- show-methods passed suite-Sample_test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Sample_test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_053" hash-for-method="addHistoryclick">addHistoryclick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="addNewClick">addNewClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="addProductButton">addProductButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.LoginTests" hash-for-method="addRewards">addRewards</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="chooseProdcutTextBox">chooseProdcutTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.LoginTests" hash-for-method="clearFirstNameTextBoxClear">clearFirstNameTextBoxClear</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.LoginTests" hash-for-method="clearFirstNameTextBoxSendKeys">clearFirstNameTextBoxSendKeys</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.LoginTests" hash-for-method="clickAddressTab">clickAddressTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="clickContinueAddProductButton">clickContinueAddProductButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.LoginTests" hash-for-method="clickEditIconOfCustomer">clickEditIconOfCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.LoginTests" hash-for-method="clickOnCustomerIcon">clickOnCustomerIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.LoginTests" hash-for-method="clickOnCustomerLink">clickOnCustomerLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="clickOrdersLink">clickOrdersLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_053" hash-for-method="clickOrdersandView">clickOrdersandView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.LoginTests" hash-for-method="clickRewardPointsFromReports">clickRewardPointsFromReports</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="clickSave">clickSave</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="continueButtonClick">continueButtonClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.LoginTests" hash-for-method="descriptionTextBox">descriptionTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="emailTextBox">emailTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="firstNameTextBox">firstNameTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_053" hash-for-method="genarateIcon">genarateIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="lastNameTextBox">lastNameTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_053" hash-for-method="orderStatusModification">orderStatusModification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="paymentAddress1">paymentAddress1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="paymentAddress2">paymentAddress2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="paymentCity">paymentCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="paymentContinue">paymentContinue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="paymentCountry">paymentCountry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="paymentFirstName">paymentFirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="paymentLastName">paymentLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="paymentPostcode">paymentPostcode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="paymentState">paymentState</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.LoginTests" hash-for-method="pointsTextBox">pointsTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="productQuantity">productQuantity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.LoginTests" hash-for-method="reportCustomersLink">reportCustomersLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.LoginTests" hash-for-method="reportsIcon">reportsIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.LoginTests" hash-for-method="rewardsPointsTabClick">rewardsPointsTabClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="salesIcon">salesIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.LoginTests" hash-for-method="saveButton">saveButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.LoginTests" hash-for-method="sendKeysPostCode">sendKeysPostCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="telephoneTextBox">telephoneTextBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.LoginTests" hash-for-method="validLoginTest">validLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_054" hash-for-method="validLoginTest">validLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sample_test_Suite" title="com.training.sanity.tests.RTTC_053" hash-for-method="validLoginTest">validLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Sample_test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Sample_test_Suite" class="panel Sample_test_Suite">
+          <div class="suite-Sample_test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.training.sanity.tests.RTTC_054</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectPaymentMethod">
+                  </a> <!-- selectPaymentMethod -->
+                  <span class="method-name">selectPaymentMethod</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Cash on Delivery
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;PREDATORONHUNT&apos;, ip: &apos;192.168.1.101&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at com.training.pom.RetailUpSkillAdmin_054.paymentMethod(RetailUpSkillAdmin_054.java:101)
+	at com.training.sanity.tests.RTTC_054.selectPaymentMethod(RTTC_054.java:199)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sample_test_Suite-class-failed -->
+          <div class="suite-Sample_test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.training.sanity.tests.RTTC_054</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewClick">
+                  </a> <!-- addNewClick -->
+                  <span class="method-name">addNewClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductButton">
+                  </a> <!-- addProductButton -->
+                  <span class="method-name">addProductButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chooseProdcutTextBox">
+                  </a> <!-- chooseProdcutTextBox -->
+                  <span class="method-name">chooseProdcutTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickContinueAddProductButton">
+                  </a> <!-- clickContinueAddProductButton -->
+                  <span class="method-name">clickContinueAddProductButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOrdersLink">
+                  </a> <!-- clickOrdersLink -->
+                  <span class="method-name">clickOrdersLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSave">
+                  </a> <!-- clickSave -->
+                  <span class="method-name">clickSave</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="continueButtonClick">
+                  </a> <!-- continueButtonClick -->
+                  <span class="method-name">continueButtonClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emailTextBox">
+                  </a> <!-- emailTextBox -->
+                  <span class="method-name">emailTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstNameTextBox">
+                  </a> <!-- firstNameTextBox -->
+                  <span class="method-name">firstNameTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lastNameTextBox">
+                  </a> <!-- lastNameTextBox -->
+                  <span class="method-name">lastNameTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="paymentAddress1">
+                  </a> <!-- paymentAddress1 -->
+                  <span class="method-name">paymentAddress1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="paymentAddress2">
+                  </a> <!-- paymentAddress2 -->
+                  <span class="method-name">paymentAddress2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="paymentCity">
+                  </a> <!-- paymentCity -->
+                  <span class="method-name">paymentCity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="paymentContinue">
+                  </a> <!-- paymentContinue -->
+                  <span class="method-name">paymentContinue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="paymentCountry">
+                  </a> <!-- paymentCountry -->
+                  <span class="method-name">paymentCountry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="paymentFirstName">
+                  </a> <!-- paymentFirstName -->
+                  <span class="method-name">paymentFirstName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="paymentLastName">
+                  </a> <!-- paymentLastName -->
+                  <span class="method-name">paymentLastName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="paymentPostcode">
+                  </a> <!-- paymentPostcode -->
+                  <span class="method-name">paymentPostcode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="paymentState">
+                  </a> <!-- paymentState -->
+                  <span class="method-name">paymentState</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productQuantity">
+                  </a> <!-- productQuantity -->
+                  <span class="method-name">productQuantity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="salesIcon">
+                  </a> <!-- salesIcon -->
+                  <span class="method-name">salesIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="telephoneTextBox">
+                  </a> <!-- telephoneTextBox -->
+                  <span class="method-name">telephoneTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginTest">
+                  </a> <!-- validLoginTest -->
+                  <span class="method-name">validLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sample_test_Suite-class-passed -->
+          <div class="suite-Sample_test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.training.sanity.tests.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addRewards">
+                  </a> <!-- addRewards -->
+                  <span class="method-name">addRewards</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clearFirstNameTextBoxClear">
+                  </a> <!-- clearFirstNameTextBoxClear -->
+                  <span class="method-name">clearFirstNameTextBoxClear</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clearFirstNameTextBoxSendKeys">
+                  </a> <!-- clearFirstNameTextBoxSendKeys -->
+                  <span class="method-name">clearFirstNameTextBoxSendKeys</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAddressTab">
+                  </a> <!-- clickAddressTab -->
+                  <span class="method-name">clickAddressTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickEditIconOfCustomer">
+                  </a> <!-- clickEditIconOfCustomer -->
+                  <span class="method-name">clickEditIconOfCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnCustomerIcon">
+                  </a> <!-- clickOnCustomerIcon -->
+                  <span class="method-name">clickOnCustomerIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnCustomerLink">
+                  </a> <!-- clickOnCustomerLink -->
+                  <span class="method-name">clickOnCustomerLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickRewardPointsFromReports">
+                  </a> <!-- clickRewardPointsFromReports -->
+                  <span class="method-name">clickRewardPointsFromReports</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="descriptionTextBox">
+                  </a> <!-- descriptionTextBox -->
+                  <span class="method-name">descriptionTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pointsTextBox">
+                  </a> <!-- pointsTextBox -->
+                  <span class="method-name">pointsTextBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reportCustomersLink">
+                  </a> <!-- reportCustomersLink -->
+                  <span class="method-name">reportCustomersLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reportsIcon">
+                  </a> <!-- reportsIcon -->
+                  <span class="method-name">reportsIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rewardsPointsTabClick">
+                  </a> <!-- rewardsPointsTabClick -->
+                  <span class="method-name">rewardsPointsTabClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="saveButton">
+                  </a> <!-- saveButton -->
+                  <span class="method-name">saveButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendKeysPostCode">
+                  </a> <!-- sendKeysPostCode -->
+                  <span class="method-name">sendKeysPostCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginTest">
+                  </a> <!-- validLoginTest -->
+                  <span class="method-name">validLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sample_test_Suite-class-passed -->
+          <div class="suite-Sample_test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.training.sanity.tests.RTTC_053</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addHistoryclick">
+                  </a> <!-- addHistoryclick -->
+                  <span class="method-name">addHistoryclick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOrdersandView">
+                  </a> <!-- clickOrdersandView -->
+                  <span class="method-name">clickOrdersandView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="genarateIcon">
+                  </a> <!-- genarateIcon -->
+                  <span class="method-name">genarateIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="orderStatusModification">
+                  </a> <!-- orderStatusModification -->
+                  <span class="method-name">orderStatusModification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginTest">
+                  </a> <!-- validLoginTest -->
+                  <span class="method-name">validLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sample_test_Suite-class-passed -->
+        </div> <!-- panel Sample_test_Suite -->
+        <div panel-name="test-xml-Sample_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\sunil\eclipse-workspace\final-framework-testng(POM)\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Sample test Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Sample test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.training.sanity.tests.LoginTests&quot;/&gt;
+      &lt;class name=&quot;com.training.sanity.tests.RTTC_053&quot;/&gt;
+      &lt;class name=&quot;com.training.sanity.tests.RTTC_054&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sample test --&gt;
+&lt;/suite&gt; &lt;!-- Sample test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Sample_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Sample test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Sample test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Sample_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Sample test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Sample_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Sample test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Sample_test_Suite');
+function tableData_Sample_test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(45);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'selectPaymentMethod')
+data.setCell(0, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(0, 3, 60341);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validLoginTest')
+data.setCell(1, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(1, 3, 9523);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validLoginTest')
+data.setCell(2, 2, 'com.training.sanity.tests.LoginTests')
+data.setCell(2, 3, 7446);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'clickOrdersandView')
+data.setCell(3, 2, 'com.training.sanity.tests.RTTC_053')
+data.setCell(3, 3, 5996);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addRewards')
+data.setCell(4, 2, 'com.training.sanity.tests.LoginTests')
+data.setCell(4, 3, 5317);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validLoginTest')
+data.setCell(5, 2, 'com.training.sanity.tests.RTTC_053')
+data.setCell(5, 3, 4921);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addNewClick')
+data.setCell(6, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(6, 3, 3512);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'paymentContinue')
+data.setCell(7, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(7, 3, 3321);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'continueButtonClick')
+data.setCell(8, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(8, 3, 3251);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'addHistoryclick')
+data.setCell(9, 2, 'com.training.sanity.tests.RTTC_053')
+data.setCell(9, 3, 3216);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'saveButton')
+data.setCell(10, 2, 'com.training.sanity.tests.LoginTests')
+data.setCell(10, 3, 1831);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'clickRewardPointsFromReports')
+data.setCell(11, 2, 'com.training.sanity.tests.LoginTests')
+data.setCell(11, 3, 1683);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'paymentState')
+data.setCell(12, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(12, 3, 1598);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'clickOrdersLink')
+data.setCell(13, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(13, 3, 1513);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'clickEditIconOfCustomer')
+data.setCell(14, 2, 'com.training.sanity.tests.LoginTests')
+data.setCell(14, 3, 1105);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'clickOnCustomerLink')
+data.setCell(15, 2, 'com.training.sanity.tests.LoginTests')
+data.setCell(15, 3, 909);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'reportsIcon')
+data.setCell(16, 2, 'com.training.sanity.tests.LoginTests')
+data.setCell(16, 3, 840);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'salesIcon')
+data.setCell(17, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(17, 3, 520);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'reportCustomersLink')
+data.setCell(18, 2, 'com.training.sanity.tests.LoginTests')
+data.setCell(18, 3, 502);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'clickOnCustomerIcon')
+data.setCell(19, 2, 'com.training.sanity.tests.LoginTests')
+data.setCell(19, 3, 429);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'chooseProdcutTextBox')
+data.setCell(20, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(20, 3, 405);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'paymentCountry')
+data.setCell(21, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(21, 3, 387);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'sendKeysPostCode')
+data.setCell(22, 2, 'com.training.sanity.tests.LoginTests')
+data.setCell(22, 3, 371);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'firstNameTextBox')
+data.setCell(23, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(23, 3, 299);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'clearFirstNameTextBoxSendKeys')
+data.setCell(24, 2, 'com.training.sanity.tests.LoginTests')
+data.setCell(24, 3, 291);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'lastNameTextBox')
+data.setCell(25, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(25, 3, 278);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'paymentAddress2')
+data.setCell(26, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(26, 3, 268);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'paymentAddress1')
+data.setCell(27, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(27, 3, 262);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'paymentFirstName')
+data.setCell(28, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(28, 3, 253);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'descriptionTextBox')
+data.setCell(29, 2, 'com.training.sanity.tests.LoginTests')
+data.setCell(29, 3, 240);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'paymentCity')
+data.setCell(30, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(30, 3, 236);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'paymentLastName')
+data.setCell(31, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(31, 3, 231);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'paymentPostcode')
+data.setCell(32, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(32, 3, 229);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'clickContinueAddProductButton')
+data.setCell(33, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(33, 3, 229);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'pointsTextBox')
+data.setCell(34, 2, 'com.training.sanity.tests.LoginTests')
+data.setCell(34, 3, 221);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'clickAddressTab')
+data.setCell(35, 2, 'com.training.sanity.tests.LoginTests')
+data.setCell(35, 3, 212);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'orderStatusModification')
+data.setCell(36, 2, 'com.training.sanity.tests.RTTC_053')
+data.setCell(36, 3, 206);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'productQuantity')
+data.setCell(37, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(37, 3, 202);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'rewardsPointsTabClick')
+data.setCell(38, 2, 'com.training.sanity.tests.LoginTests')
+data.setCell(38, 3, 197);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'emailTextBox')
+data.setCell(39, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(39, 3, 196);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'clickSave')
+data.setCell(40, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(40, 3, 183);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'clearFirstNameTextBoxClear')
+data.setCell(41, 2, 'com.training.sanity.tests.LoginTests')
+data.setCell(41, 3, 161);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'addProductButton')
+data.setCell(42, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(42, 3, 143);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'telephoneTextBox')
+data.setCell(43, 2, 'com.training.sanity.tests.RTTC_054')
+data.setCell(43, 3, 139);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'genarateIcon')
+data.setCell(44, 2, 'com.training.sanity.tests.RTTC_053')
+data.setCell(44, 3, 121);
+window.suiteTableData['Sample_test_Suite']= { tableData: data, tableDiv: 'times-div-Sample_test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Sample_test_Suite">
+              </div> <!-- times-div-Sample_test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Sample_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Sample test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Sample_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Sample_test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.training.sanity.tests.LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpBeforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.training.sanity.tests.RTTC_053</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpBeforeClass</span>
+                <span class="method-start">38310 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.training.sanity.tests.RTTC_054</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpBeforeClass</span>
+                <span class="method-start">53408 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.training.sanity.tests.LoginTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validLoginTest</span>
+                <span class="method-start">68125 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnCustomerIcon</span>
+                <span class="method-start">75580 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnCustomerLink</span>
+                <span class="method-start">76013 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickEditIconOfCustomer</span>
+                <span class="method-start">76924 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clearFirstNameTextBoxClear</span>
+                <span class="method-start">78035 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clearFirstNameTextBoxSendKeys</span>
+                <span class="method-start">78201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickAddressTab</span>
+                <span class="method-start">78497 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sendKeysPostCode</span>
+                <span class="method-start">78714 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">rewardsPointsTabClick</span>
+                <span class="method-start">79088 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">descriptionTextBox</span>
+                <span class="method-start">79289 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pointsTextBox</span>
+                <span class="method-start">79531 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addRewards</span>
+                <span class="method-start">79754 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">saveButton</span>
+                <span class="method-start">85075 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reportsIcon</span>
+                <span class="method-start">86909 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reportCustomersLink</span>
+                <span class="method-start">87752 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickRewardPointsFromReports</span>
+                <span class="method-start">88255 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.training.sanity.tests.RTTC_053</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validLoginTest</span>
+                <span class="method-start">89943 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOrdersandView</span>
+                <span class="method-start">94866 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">genarateIcon</span>
+                <span class="method-start">100865 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">orderStatusModification</span>
+                <span class="method-start">100988 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addHistoryclick</span>
+                <span class="method-start">101196 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.training.sanity.tests.RTTC_054</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validLoginTest</span>
+                <span class="method-start">104415 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">salesIcon</span>
+                <span class="method-start">113939 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOrdersLink</span>
+                <span class="method-start">114461 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addNewClick</span>
+                <span class="method-start">115976 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">firstNameTextBox</span>
+                <span class="method-start">119492 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">lastNameTextBox</span>
+                <span class="method-start">119794 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">emailTextBox</span>
+                <span class="method-start">120075 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">telephoneTextBox</span>
+                <span class="method-start">120272 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">continueButtonClick</span>
+                <span class="method-start">120412 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chooseProdcutTextBox</span>
+                <span class="method-start">123665 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productQuantity</span>
+                <span class="method-start">124071 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addProductButton</span>
+                <span class="method-start">124274 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickContinueAddProductButton</span>
+                <span class="method-start">124419 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">paymentFirstName</span>
+                <span class="method-start">124650 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">paymentLastName</span>
+                <span class="method-start">124906 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">paymentAddress1</span>
+                <span class="method-start">125139 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">paymentAddress2</span>
+                <span class="method-start">125404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">paymentCity</span>
+                <span class="method-start">125675 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">paymentPostcode</span>
+                <span class="method-start">125915 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">paymentCountry</span>
+                <span class="method-start">126146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">paymentState</span>
+                <span class="method-start">126536 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">paymentContinue</span>
+                <span class="method-start">128137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectPaymentMethod</span>
+                <span class="method-start">131460 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickSave</span>
+                <span class="method-start">191811 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.training.sanity.tests.LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">191996 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.training.sanity.tests.RTTC_053</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">193726 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.training.sanity.tests.RTTC_054</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">195525 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

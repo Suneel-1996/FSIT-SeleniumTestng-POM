@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="45" passed="44">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample test Suite" duration-ms="197262" started-at="2020-10-17T19:57:06 IST" finished-at="2020-10-17T20:00:23 IST">
+    <groups>
+    </groups>
+    <test name="Sample test" duration-ms="197262" started-at="2020-10-17T19:57:06 IST" finished-at="2020-10-17T20:00:23 IST">
+      <class name="com.training.sanity.tests.RTTC_053">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RTTC_053@4facf68f]" name="setUpBeforeClass" is-config="true" duration-ms="15098" started-at="2020-10-17T19:57:44 IST" finished-at="2020-10-17T19:57:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.RTTC_053@4facf68f]" name="validLoginTest" duration-ms="4921" started-at="2020-10-17T19:58:36 IST" finished-at="2020-10-17T19:58:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="clickOrdersandView()[pri:1, instance:com.training.sanity.tests.RTTC_053@4facf68f]" name="clickOrdersandView" duration-ms="5996" started-at="2020-10-17T19:58:40 IST" finished-at="2020-10-17T19:58:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOrdersandView -->
+        <test-method status="PASS" signature="genarateIcon()[pri:2, instance:com.training.sanity.tests.RTTC_053@4facf68f]" name="genarateIcon" duration-ms="121" started-at="2020-10-17T19:58:46 IST" finished-at="2020-10-17T19:58:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genarateIcon -->
+        <test-method status="PASS" signature="orderStatusModification()[pri:3, instance:com.training.sanity.tests.RTTC_053@4facf68f]" name="orderStatusModification" duration-ms="206" started-at="2020-10-17T19:58:47 IST" finished-at="2020-10-17T19:58:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderStatusModification -->
+        <test-method status="PASS" signature="addHistoryclick()[pri:4, instance:com.training.sanity.tests.RTTC_053@4facf68f]" name="addHistoryclick" duration-ms="3216" started-at="2020-10-17T19:58:47 IST" finished-at="2020-10-17T19:58:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addHistoryclick -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RTTC_053@4facf68f]" name="tearDown" is-config="true" duration-ms="1799" started-at="2020-10-17T20:00:19 IST" finished-at="2020-10-17T20:00:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.RTTC_053 -->
+      <class name="com.training.sanity.tests.RTTC_054">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="setUpBeforeClass" is-config="true" duration-ms="14679" started-at="2020-10-17T19:57:59 IST" finished-at="2020-10-17T19:58:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="validLoginTest" duration-ms="9523" started-at="2020-10-17T19:58:50 IST" finished-at="2020-10-17T19:59:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="salesIcon()[pri:1, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="salesIcon" duration-ms="520" started-at="2020-10-17T19:59:00 IST" finished-at="2020-10-17T19:59:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salesIcon -->
+        <test-method status="PASS" signature="clickOrdersLink()[pri:2, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="clickOrdersLink" duration-ms="1513" started-at="2020-10-17T19:59:00 IST" finished-at="2020-10-17T19:59:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOrdersLink -->
+        <test-method status="PASS" signature="addNewClick()[pri:3, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="addNewClick" duration-ms="3512" started-at="2020-10-17T19:59:02 IST" finished-at="2020-10-17T19:59:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewClick -->
+        <test-method status="PASS" signature="firstNameTextBox()[pri:4, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="firstNameTextBox" duration-ms="299" started-at="2020-10-17T19:59:05 IST" finished-at="2020-10-17T19:59:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstNameTextBox -->
+        <test-method status="PASS" signature="lastNameTextBox()[pri:5, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="lastNameTextBox" duration-ms="278" started-at="2020-10-17T19:59:05 IST" finished-at="2020-10-17T19:59:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastNameTextBox -->
+        <test-method status="PASS" signature="emailTextBox()[pri:6, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="emailTextBox" duration-ms="196" started-at="2020-10-17T19:59:06 IST" finished-at="2020-10-17T19:59:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailTextBox -->
+        <test-method status="PASS" signature="telephoneTextBox()[pri:7, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="telephoneTextBox" duration-ms="139" started-at="2020-10-17T19:59:06 IST" finished-at="2020-10-17T19:59:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- telephoneTextBox -->
+        <test-method status="PASS" signature="continueButtonClick()[pri:8, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="continueButtonClick" duration-ms="3251" started-at="2020-10-17T19:59:06 IST" finished-at="2020-10-17T19:59:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueButtonClick -->
+        <test-method status="PASS" signature="chooseProdcutTextBox()[pri:9, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="chooseProdcutTextBox" duration-ms="405" started-at="2020-10-17T19:59:09 IST" finished-at="2020-10-17T19:59:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseProdcutTextBox -->
+        <test-method status="PASS" signature="productQuantity()[pri:10, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="productQuantity" duration-ms="202" started-at="2020-10-17T19:59:10 IST" finished-at="2020-10-17T19:59:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productQuantity -->
+        <test-method status="PASS" signature="addProductButton()[pri:11, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="addProductButton" duration-ms="143" started-at="2020-10-17T19:59:10 IST" finished-at="2020-10-17T19:59:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductButton -->
+        <test-method status="PASS" signature="clickContinueAddProductButton()[pri:12, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="clickContinueAddProductButton" duration-ms="229" started-at="2020-10-17T19:59:10 IST" finished-at="2020-10-17T19:59:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContinueAddProductButton -->
+        <test-method status="PASS" signature="paymentFirstName()[pri:13, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="paymentFirstName" duration-ms="253" started-at="2020-10-17T19:59:10 IST" finished-at="2020-10-17T19:59:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentFirstName -->
+        <test-method status="PASS" signature="paymentLastName()[pri:14, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="paymentLastName" duration-ms="231" started-at="2020-10-17T19:59:10 IST" finished-at="2020-10-17T19:59:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentLastName -->
+        <test-method status="PASS" signature="paymentAddress1()[pri:15, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="paymentAddress1" duration-ms="262" started-at="2020-10-17T19:59:11 IST" finished-at="2020-10-17T19:59:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentAddress1 -->
+        <test-method status="PASS" signature="paymentAddress2()[pri:16, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="paymentAddress2" duration-ms="268" started-at="2020-10-17T19:59:11 IST" finished-at="2020-10-17T19:59:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentAddress2 -->
+        <test-method status="PASS" signature="paymentCity()[pri:17, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="paymentCity" duration-ms="236" started-at="2020-10-17T19:59:11 IST" finished-at="2020-10-17T19:59:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentCity -->
+        <test-method status="PASS" signature="paymentPostcode()[pri:18, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="paymentPostcode" duration-ms="229" started-at="2020-10-17T19:59:11 IST" finished-at="2020-10-17T19:59:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentPostcode -->
+        <test-method status="PASS" signature="paymentCountry()[pri:19, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="paymentCountry" duration-ms="387" started-at="2020-10-17T19:59:12 IST" finished-at="2020-10-17T19:59:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentCountry -->
+        <test-method status="PASS" signature="paymentState()[pri:20, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="paymentState" duration-ms="1598" started-at="2020-10-17T19:59:12 IST" finished-at="2020-10-17T19:59:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentState -->
+        <test-method status="PASS" signature="paymentContinue()[pri:21, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="paymentContinue" duration-ms="3321" started-at="2020-10-17T19:59:14 IST" finished-at="2020-10-17T19:59:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentContinue -->
+        <test-method status="FAIL" signature="selectPaymentMethod()[pri:22, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="selectPaymentMethod" duration-ms="60341" started-at="2020-10-17T19:59:17 IST" finished-at="2020-10-17T20:00:17 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: Cash on Delivery
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'PREDATORONHUNT', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Cash on Delivery
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'PREDATORONHUNT', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+at com.training.pom.RetailUpSkillAdmin_054.paymentMethod(RetailUpSkillAdmin_054.java:101)
+at com.training.sanity.tests.RTTC_054.selectPaymentMethod(RTTC_054.java:199)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPaymentMethod -->
+        <test-method status="PASS" signature="clickSave()[pri:23, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="clickSave" duration-ms="183" started-at="2020-10-17T20:00:17 IST" finished-at="2020-10-17T20:00:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSave -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RTTC_054@76508ed1]" name="tearDown" is-config="true" duration-ms="1733" started-at="2020-10-17T20:00:21 IST" finished-at="2020-10-17T20:00:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.RTTC_054 -->
+      <class name="com.training.sanity.tests.LoginTests">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.LoginTests@4ac3c60d]" name="setUpBeforeClass" is-config="true" duration-ms="38309" started-at="2020-10-17T19:57:06 IST" finished-at="2020-10-17T19:57:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.LoginTests@4ac3c60d]" name="validLoginTest" duration-ms="7446" started-at="2020-10-17T19:58:14 IST" finished-at="2020-10-17T19:58:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="clickOnCustomerIcon()[pri:1, instance:com.training.sanity.tests.LoginTests@4ac3c60d]" name="clickOnCustomerIcon" duration-ms="429" started-at="2020-10-17T19:58:21 IST" finished-at="2020-10-17T19:58:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCustomerIcon -->
+        <test-method status="PASS" signature="clickOnCustomerLink()[pri:2, instance:com.training.sanity.tests.LoginTests@4ac3c60d]" name="clickOnCustomerLink" duration-ms="909" started-at="2020-10-17T19:58:22 IST" finished-at="2020-10-17T19:58:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCustomerLink -->
+        <test-method status="PASS" signature="clickEditIconOfCustomer()[pri:3, instance:com.training.sanity.tests.LoginTests@4ac3c60d]" name="clickEditIconOfCustomer" duration-ms="1105" started-at="2020-10-17T19:58:22 IST" finished-at="2020-10-17T19:58:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickEditIconOfCustomer -->
+        <test-method status="PASS" signature="clearFirstNameTextBoxClear()[pri:4, instance:com.training.sanity.tests.LoginTests@4ac3c60d]" name="clearFirstNameTextBoxClear" duration-ms="161" started-at="2020-10-17T19:58:24 IST" finished-at="2020-10-17T19:58:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFirstNameTextBoxClear -->
+        <test-method status="PASS" signature="clearFirstNameTextBoxSendKeys()[pri:5, instance:com.training.sanity.tests.LoginTests@4ac3c60d]" name="clearFirstNameTextBoxSendKeys" duration-ms="291" started-at="2020-10-17T19:58:24 IST" finished-at="2020-10-17T19:58:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFirstNameTextBoxSendKeys -->
+        <test-method status="PASS" signature="clickAddressTab()[pri:6, instance:com.training.sanity.tests.LoginTests@4ac3c60d]" name="clickAddressTab" duration-ms="212" started-at="2020-10-17T19:58:24 IST" finished-at="2020-10-17T19:58:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAddressTab -->
+        <test-method status="PASS" signature="sendKeysPostCode()[pri:7, instance:com.training.sanity.tests.LoginTests@4ac3c60d]" name="sendKeysPostCode" duration-ms="371" started-at="2020-10-17T19:58:24 IST" finished-at="2020-10-17T19:58:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendKeysPostCode -->
+        <test-method status="PASS" signature="rewardsPointsTabClick()[pri:8, instance:com.training.sanity.tests.LoginTests@4ac3c60d]" name="rewardsPointsTabClick" duration-ms="197" started-at="2020-10-17T19:58:25 IST" finished-at="2020-10-17T19:58:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rewardsPointsTabClick -->
+        <test-method status="PASS" signature="descriptionTextBox()[pri:9, instance:com.training.sanity.tests.LoginTests@4ac3c60d]" name="descriptionTextBox" duration-ms="240" started-at="2020-10-17T19:58:25 IST" finished-at="2020-10-17T19:58:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- descriptionTextBox -->
+        <test-method status="PASS" signature="pointsTextBox()[pri:10, instance:com.training.sanity.tests.LoginTests@4ac3c60d]" name="pointsTextBox" duration-ms="221" started-at="2020-10-17T19:58:25 IST" finished-at="2020-10-17T19:58:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pointsTextBox -->
+        <test-method status="PASS" signature="addRewards()[pri:11, instance:com.training.sanity.tests.LoginTests@4ac3c60d]" name="addRewards" duration-ms="5317" started-at="2020-10-17T19:58:25 IST" finished-at="2020-10-17T19:58:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRewards -->
+        <test-method status="PASS" signature="saveButton()[pri:12, instance:com.training.sanity.tests.LoginTests@4ac3c60d]" name="saveButton" duration-ms="1831" started-at="2020-10-17T19:58:31 IST" finished-at="2020-10-17T19:58:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveButton -->
+        <test-method status="PASS" signature="reportsIcon()[pri:13, instance:com.training.sanity.tests.LoginTests@4ac3c60d]" name="reportsIcon" duration-ms="840" started-at="2020-10-17T19:58:32 IST" finished-at="2020-10-17T19:58:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportsIcon -->
+        <test-method status="PASS" signature="reportCustomersLink()[pri:14, instance:com.training.sanity.tests.LoginTests@4ac3c60d]" name="reportCustomersLink" duration-ms="502" started-at="2020-10-17T19:58:33 IST" finished-at="2020-10-17T19:58:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportCustomersLink -->
+        <test-method status="PASS" signature="clickRewardPointsFromReports()[pri:15, instance:com.training.sanity.tests.LoginTests@4ac3c60d]" name="clickRewardPointsFromReports" duration-ms="1683" started-at="2020-10-17T19:58:34 IST" finished-at="2020-10-17T19:58:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickRewardPointsFromReports -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.LoginTests@4ac3c60d]" name="tearDown" is-config="true" duration-ms="1730" started-at="2020-10-17T20:00:18 IST" finished-at="2020-10-17T20:00:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.LoginTests -->
+    </test> <!-- Sample test -->
+  </suite> <!-- Sample test Suite -->
+</testng-results>

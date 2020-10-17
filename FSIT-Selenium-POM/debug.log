@@ -1,0 +1,8 @@
+[1011/114544.132:ERROR:file_io_win.cc(180)] CreateFile C:\Users\sunil\AppData\Local\Temp\scoped_dir8360_1877609800\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[1011/114605.762:ERROR:file_io_win.cc(180)] CreateFile C:\Users\sunil\AppData\Local\Temp\scoped_dir13476_974571448\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[1014/164305.504:ERROR:file_io_win.cc(180)] CreateFile C:\Users\sunil\AppData\Local\Temp\scoped_dir19660_1470612196\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[1015/145224.315:ERROR:file_io_win.cc(180)] CreateFile C:\Users\sunil\AppData\Local\Temp\scoped_dir23712_638869559\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[1015/145355.395:ERROR:file_io_win.cc(180)] CreateFile C:\Users\sunil\AppData\Local\Temp\scoped_dir20744_1213112780\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[1015/150335.715:ERROR:file_io_win.cc(180)] CreateFile C:\Users\sunil\AppData\Local\Temp\scoped_dir28256_791645675\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[1015/172639.110:ERROR:file_io_win.cc(180)] CreateFile C:\Users\sunil\AppData\Local\Temp\scoped_dir28528_314793218\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[1016/213520.104:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
